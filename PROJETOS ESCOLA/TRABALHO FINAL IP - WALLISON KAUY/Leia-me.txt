@@ -1,0 +1,17 @@
+Wallison Kauy Lustostosa Alves
+Sistema Operacional Utilizado = Ubuntu 16.04
+IDE utilizada = CodeBlocks 16.04
+
+
+	ESTE CODIGO NAO ESTA RODANDO NO CODEBLOCKS 17.12 OU NO WINDOWS, ESTA DANDO process returned -1073741571 ( 0xc00000FD) - ERRO DE PILHA ALGO ASSIM, COMO NAO CONSIGUI RESOLVER RECOMENDO UTILIZAR O CODELOBKCS 16.04 NO UBUNTU.(RESOLVIDO -- VC TERA QUE OTIMIZAR SUA IDE HABILIDANDO O FOR SPEED, -O3)
+
+
+	PARA A EXECUÇÃO DO CODIGO É NECESSARIO QUE ESTEJA HABILITADO UM OTIMIZAÇÃO DO COMPILADOR, PARA QUE A EXECUÇÃO SEJA MAIS RAPIDA E EFICAZ PARA ISSO BASTA HABILITAR NA SUA IDE [-O3] ou [-O2]; ESTE CODIGO SEM A APLICAÇÃO DA OTIMIZAÇAO DEMORARA EM MEDIA DE 10-15 MINUTOS!!, E COM A OTIMIZAÇÃO EM MEDIA 2 MINUTOS SOMENTE O MODULO DE TREINO DO CLASSIFICADOR.
+
+
+    CodeBlocks 16.04 = Settings > Compiler > Global compiler settings > Compiler FLags > Optimization > marque a opção 'Optimize fully (for speed) [-O3]'
+     E em Other compiler options copie e cole -Wno-unused-result
+
+
+ALERTA !!!
+Nao consegui guarda e scania em arquivo binario, entao resolvi guarda em txt
